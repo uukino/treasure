@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/uukino/Scenes/BossStage.unity
+    guid: 1248668fc4bbb84469916739f00606ae
+  - enabled: 1
+    path: Assets/uukino/Scenes/PlayerWin.unity
+    guid: a80379c1b6eb64f40806fb1670a8e4f1
+  - enabled: 1
+    path: Assets/uukino/Scenes/BossWin.unity
+    guid: 179c7cb1f764bbe428353a8b416d182b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
