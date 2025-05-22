@@ -154,6 +154,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -522,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Temple Asset Pack_0: 9066207130863733130
+      Temple Asset Pack_1: -3698282166878332280
+      Temple Asset Pack_10: -7313718080577976273
+      Temple Asset Pack_11: 2504675874723430387
+      Temple Asset Pack_12: 5125014519770225852
+      Temple Asset Pack_13: -8922221392627064347
+      Temple Asset Pack_14: -7589685384685553942
+      Temple Asset Pack_15: 5916607811348621613
+      Temple Asset Pack_2: -151644980030231969
+      Temple Asset Pack_3: -7662717351881117690
+      Temple Asset Pack_4: -1453023978359653742
+      Temple Asset Pack_5: -4012513371705681203
+      Temple Asset Pack_6: -6901113172933166276
+      Temple Asset Pack_7: -5468274012831423130
+      Temple Asset Pack_8: 6878384266352716713
+      Temple Asset Pack_9: -6621028611688886212
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

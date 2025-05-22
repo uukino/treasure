@@ -172,6 +172,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -672,7 +685,29 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Temple_Decorations1_0: 6798431560153677969
+      Temple_Decorations1_1: 523445417289559624
+      Temple_Decorations1_10: 4029061287554318838
+      Temple_Decorations1_11: 5429169859538798996
+      Temple_Decorations1_12: -8608954021217491344
+      Temple_Decorations1_13: -6199809811624734611
+      Temple_Decorations1_14: 3817227099160223701
+      Temple_Decorations1_15: 7463493659915071799
+      Temple_Decorations1_16: -4821431817303689188
+      Temple_Decorations1_17: 1474686285673409385
+      Temple_Decorations1_18: 3736485971362886369
+      Temple_Decorations1_19: -354109922880394118
+      Temple_Decorations1_2: 1973467172092393215
+      Temple_Decorations1_20: -4011012715905690176
+      Temple_Decorations1_21: -4230480969672599431
+      Temple_Decorations1_3: 9135502059768177686
+      Temple_Decorations1_4: -4711139329575801936
+      Temple_Decorations1_5: 7493865215852526938
+      Temple_Decorations1_6: 6205574004650847452
+      Temple_Decorations1_7: -7477184219644368900
+      Temple_Decorations1_8: -4050058235980798193
+      Temple_Decorations1_9: -4848318774059175427
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

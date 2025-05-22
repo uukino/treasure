@@ -169,6 +169,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -647,7 +660,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Desert_0: 130452656225014213
+      Desert_1: -1684463988762818810
+      Desert_10: 4357044945649823405
+      Desert_11: -5546169963851916408
+      Desert_12: 8787155665117254736
+      Desert_13: 3071275658661546787
+      Desert_14: -2652693293121697407
+      Desert_15: -4932994266883439943
+      Desert_16: 2925299890117126709
+      Desert_17: 5455571804174226438
+      Desert_18: 6747880713673063236
+      Desert_19: -4553087126160766624
+      Desert_2: -8034199350092224423
+      Desert_20: -4949627433556570602
+      Desert_3: -3472776297332130694
+      Desert_4: 2200316129524247793
+      Desert_5: 7868347602809382003
+      Desert_6: -1407267355242168244
+      Desert_7: 8511966426888049946
+      Desert_8: 1494933670736963382
+      Desert_9: -3958981189103962199
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
