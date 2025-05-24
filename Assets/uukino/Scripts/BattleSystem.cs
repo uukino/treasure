@@ -27,9 +27,22 @@ public class BattleSystem : MonoBehaviour
     public GameObject hit1_icon;
     public GameObject hit2_icon;
     public GameObject hit3_icon;
+    public GameObject damage_icon;
     public Transform hit_pos;
+    public GameObject critical;
+    public GameObject bigdamage;
+    public AudioSource audiosource;
+    public AudioClip click;
+    public AudioClip hit;
+    public AudioClip hit2;
+    public AudioClip difense_se;
+    public AudioClip miss;
+    public AudioClip miss_df;
     void Start()
     {
+        audiosource = GetComponent<AudioSource>();
+        ap_slider.gameObject.SetActive(false);
+        dp_slider.gameObject.SetActive(false);
         player = true;
         boss = false;
         ap_manager = false;
@@ -70,15 +83,17 @@ public class BattleSystem : MonoBehaviour
         if (player == true)
         {
             situation_text.text = "攻撃ターン";
-            todo_text.text = "スペースキーでスタート";
+            todo_text.text = "スペースキーで攻撃開始";
             Debug.Log("プレイヤー");
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 ap_manager = true;
                 attack = true;
+                audiosource.PlayOneShot(click);
             }
             if (attack == true)
             {
+                ap_slider.gameObject.SetActive(true);
                 todo_text.text = "Aキーで攻撃";
                 if (Input.GetKeyDown(KeyCode.A))
                 {
@@ -92,11 +107,14 @@ public class BattleSystem : MonoBehaviour
                     {
                         Instantiate(hit2_icon, hit_pos.position, hit_pos.rotation);
                     }
-                    if (ap >= 140)
+                    if (ap >= 145)
                     {
                         Instantiate(hit3_icon, hit_pos.position, hit_pos.rotation);
+                        Instantiate(critical);
                     }
                     ap = 0f;
+                    audiosource.PlayOneShot(hit);
+                    ap_slider.gameObject.SetActive(false);
                     player = false;
                     boss = true;
                     attack = false;
@@ -107,6 +125,8 @@ public class BattleSystem : MonoBehaviour
                     ap_manager = false;
                     ap = 0f;
                     Instantiate(miss_icon, miss_pos.position, miss_pos.rotation);
+                    audiosource.PlayOneShot(miss);
+                    ap_slider.gameObject.SetActive(false);
                     player = false;
                     boss = true;
                     attack = false;
@@ -118,21 +138,25 @@ public class BattleSystem : MonoBehaviour
         if (boss == true)
         {
             situation_text.text = "防御ターン";
-            todo_text.text = "スペースキーでスタート";
+            todo_text.text = "スペースキーで防御開始";
             Debug.Log("ボス");
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 dp_manager = true;
                 difense = true;
+                audiosource.PlayOneShot(click);
             }
             if (difense == true)
             {
+                dp_slider.gameObject.SetActive(true);
                 todo_text.text = "Dキーで防御";
                 if (Input.GetKeyDown(KeyCode.D))
                 {
                     dp_manager = false;
                     player_hp -= 200 - dp;
                     dp = 0f;
+                    audiosource.PlayOneShot(difense_se);
+                    dp_slider.gameObject.SetActive(false);
                     boss = false;
                     player = true;
                     difense = false;
@@ -143,7 +167,10 @@ public class BattleSystem : MonoBehaviour
                     dp_manager = false;
                     player_hp -= 150;
                     dp = 0f;
-                    Instantiate(miss_icon, miss_pos.position, miss_pos.rotation);
+                    Instantiate(damage_icon, miss_pos.position, miss_pos.rotation);
+                    Instantiate(bigdamage);
+                    audiosource.PlayOneShot(miss_df);
+                    dp_slider.gameObject.SetActive(false);
                     boss = false;
                     player = true;
                     difense = false;
