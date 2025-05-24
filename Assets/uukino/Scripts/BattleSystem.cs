@@ -32,15 +32,18 @@ public class BattleSystem : MonoBehaviour
     public GameObject critical;
     public GameObject bigdamage;
     public AudioSource audiosource;
+    public AudioClip bgm;
     public AudioClip click;
     public AudioClip hit;
     public AudioClip hit2;
+    public AudioClip hit3;
     public AudioClip difense_se;
     public AudioClip miss;
     public AudioClip miss_df;
     void Start()
     {
         audiosource = GetComponent<AudioSource>();
+        audiosource.PlayOneShot(bgm);
         ap_slider.gameObject.SetActive(false);
         dp_slider.gameObject.SetActive(false);
         player = true;
@@ -102,18 +105,20 @@ public class BattleSystem : MonoBehaviour
                     if (ap >= 0)
                     {
                         Instantiate(hit1_icon, hit_pos.position, hit_pos.rotation);
+                        audiosource.PlayOneShot(hit);
                     }
                     if (ap >= 120)
                     {
                         Instantiate(hit2_icon, hit_pos.position, hit_pos.rotation);
+                        audiosource.PlayOneShot(hit2);
                     }
                     if (ap >= 145)
                     {
                         Instantiate(hit3_icon, hit_pos.position, hit_pos.rotation);
                         Instantiate(critical);
+                        audiosource.PlayOneShot(hit3);
                     }
                     ap = 0f;
-                    audiosource.PlayOneShot(hit);
                     ap_slider.gameObject.SetActive(false);
                     player = false;
                     boss = true;
