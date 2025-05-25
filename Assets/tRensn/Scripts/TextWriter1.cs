@@ -21,7 +21,7 @@ public class TextWriter1 : MonoBehaviour
     // 文章を表示させるコルーチン
     IEnumerator Cotest()
     {
-        uitext.DrawText("名前","扉がある。この先に財宝がありそうだ。");
+        uitext.DrawText("名前","大きな扉がある。この先にお宝がありそうだ。");
         yield return StartCoroutine("Skip");
 
     }
