@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 377289023}
   - component: {fileID: 377289025}
   - component: {fileID: 377289024}
+  - component: {fileID: 377289026}
   m_Layer: 5
   m_Name: YouWinTex (1)
   m_TagString: Untagged
@@ -286,6 +287,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377289022}
   m_CullTransparentMesh: 1
+--- !u!114 &377289026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377289022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06443663448f73047b3049ea96f9bb9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1117118189
 GameObject:
   m_ObjectHideFlags: 0
