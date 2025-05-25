@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 850e9d29227cfb0458629802881b653e
+guid: 7961fb283b417ea4f96e6bb2e9d54f73
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1955464735660845204
-    second: IMG_8308_0
+      213: 4386216800744415129
+    second: Lovepik_com-401490897-light-yellow-stars_0
+  - first:
+      213: -2874766266763029983
+    second: Lovepik_com-401490897-light-yellow-stars_1
+  - first:
+      213: 9134559717168789981
+    second: Lovepik_com-401490897-light-yellow-stars_2
+  - first:
+      213: -1165947254107517003
+    second: Lovepik_com-401490897-light-yellow-stars_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +106,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_8308_0
+      name: Lovepik_com-401490897-light-yellow-stars_0
       rect:
         serializedVersion: 2
-        x: 126
-        y: 36
-        width: 290
-        height: 427
+        x: 38
+        y: 320
+        width: 1742
+        height: 1562
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c67d124fe2bccd4e0800000000000000
-      internalID: -1955464735660845204
+      spriteID: 99f983ce0f8fedc30800000000000000
+      internalID: 4386216800744415129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-401490897-light-yellow-stars_1
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1882
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1225051cf47ca18d0800000000000000
+      internalID: -2874766266763029983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-401490897-light-yellow-stars_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1126
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd930717aa974ce70800000000000000
+      internalID: 9134559717168789981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lovepik_com-401490897-light-yellow-stars_3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1122
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf441c5629b1dfe0800000000000000
+      internalID: -1165947254107517003
       vertices: []
       indices: 
       edges: []
@@ -160,8 +222,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      IMG_8308_0: -1955464735660845204
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
