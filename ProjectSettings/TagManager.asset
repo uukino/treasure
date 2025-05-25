@@ -4,7 +4,14 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Goal
+
+  - Floor
+  - Obstacle
+  - MovingPlatform
+  - zimen
+  - Zimen
+  - Tobirawaku
+
   layers:
   - Default
   - TransparentFX
