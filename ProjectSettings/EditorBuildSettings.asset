@@ -12,8 +12,10 @@ EditorBuildSettings:
     path: Assets/tRensn/Scenes/tobiraato.unity
     guid: f8b22ecd891c776408c79c2e743bb9ed
   - enabled: 1
+
     path: Assets/tRensn/Scenes/tobiramae.unity
     guid: 1748c370f6c6b25408032b939cf8afbe
+
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
